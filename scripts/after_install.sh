@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #_Change_Working_Directory
-cd /home/ec2-user/server
+cd /home/ubuntu /server
 
 #_Remove_Unused_Code
 rm -rf node_modules
