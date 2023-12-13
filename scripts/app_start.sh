@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+
 
 #_Change_Working_Directory
 cd /home/ec2-user/server
