@@ -12,22 +12,8 @@ phases:
   build:
     commands:
         # run build script
-        - npm run-script build
+        - npm run build
      
 artifacts:
-  # include all files required to run application
-  # notably excluded is node_modules, as this will cause overwrite error on deploy
-  files:
-    - public/**/*
-    - src/**/*
-    - package.json
-    - server.js
-    - appspec.yml
-    - scripts/**/*
-    - .env
-    - .env.preprod
-    - .env.production
-    - index.html
-    - tsconfig.json
-    - tsconfig.vite.json
-    - vite.config.ts
+  files: '**/*'
+  discard-paths: yes
