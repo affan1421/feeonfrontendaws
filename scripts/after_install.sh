@@ -2,7 +2,7 @@
 set -e
 
 #_Change_Working_Directory
-cd /home/ubuntu /server
+cd /home/ubuntu/server
 
 #_Remove_Unused_Code
 rm -rf node_modules
