@@ -7,13 +7,11 @@ phases:
    
     commands:
         # install npm
-        - npm install
+        - npm install --force
        
   build:
     commands:
         # run build script
-        - npm install
-        - pwd
         - npm run build
 
      
