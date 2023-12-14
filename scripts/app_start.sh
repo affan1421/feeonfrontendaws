@@ -3,7 +3,7 @@ set -e
 
 
 #_Change_Working_Directory
-cd /home/ec2-user/server
+cd /home/ubuntu/server
 
 #_Delete_Old_PM2_Service
 #sudo pm2 delete Frontend
