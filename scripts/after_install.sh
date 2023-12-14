@@ -10,4 +10,4 @@ rm -rf build
 
 #Install_node_modules_&_Make_React_Build
 npm  install
-npm run build
+npm run preprod
