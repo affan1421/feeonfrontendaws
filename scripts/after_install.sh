@@ -5,6 +5,6 @@ set -e
 cd /home/ubuntu/server
 
 # Install dependencies
-npm install --production
+npm install 
 
 
