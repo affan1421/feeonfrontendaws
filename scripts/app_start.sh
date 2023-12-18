@@ -5,4 +5,4 @@ set -e
 cd /home/ubuntu/server
 
 # Start your React app (assuming it's a static build)
-npm start
+npm run dev
