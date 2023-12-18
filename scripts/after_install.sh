@@ -5,7 +5,6 @@ set -e
 cd /home/ubuntu/server
 
 # Install dependencies
-npm install --force 
-
+npm install 
 
 
