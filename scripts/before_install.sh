@@ -1,6 +1,4 @@
 #!/bin/bash
-set -e
-
-# Install Node.js
-curl -sL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+cd /home/ubuntu /server
+curl -sL https://rpm.nodesource.com/setup_14.x | sudo -E bash -
 sudo apt-get install -y nodejs
