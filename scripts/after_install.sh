@@ -5,6 +5,7 @@ set -e
 cd /home/ubuntu/server
 
 # Install dependencies
-npm install 
+npm install 18.17.0
+
 
 
